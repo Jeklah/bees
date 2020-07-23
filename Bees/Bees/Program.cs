@@ -28,21 +28,18 @@ namespace _Bees { // Added underscore to start of namespace to avoid confusion w
 
         public Worker() {  // constructor for Worker class.
             this.DEATH = 70;
-            healthStatus();
         }
     }
 
     public class Drone: Bees {
         public Drone() {
             this.DEATH = 50;
-            healthStatus();
         }
     }
 
     public class Queen: Bees {
         public Queen() {
             this.DEATH = 20;
-            healthStatus();
         }
     }
 
