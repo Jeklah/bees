@@ -39,6 +39,13 @@ namespace _Bees { // Added underscore to start of namespace to avoid confusion w
         }
     }
 
+    public class Queen: Bees {
+        public Queen() {
+            this.DEATH = 20;
+            healthStatus();
+        }
+    }
+
     static void Main(string[] args) {
         Console.WriteLine("Hello World!");
     }
